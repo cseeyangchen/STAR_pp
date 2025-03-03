@@ -100,16 +100,15 @@ Put downloaded data into the following directory structure:
 
 - For NTU RGB+D 60 dataset (55/5 split):
 ```
- python main_match.py --config config/ntu60_xsub_55_5split/joint_shiftgcn_ViTL14@336px_match.yaml
+ python main_match.py --config config/ntu60_xsub_55_5split.yaml
 ```
 
 - For PKU-MMD I dataset (46/5 split):
 ```
- cd Pretrain_Shift_GCN
- python main_match.py --config config/pkuv1_xsub_46_5split/joint_shiftgcn_ViTL14@336px_match.yaml
+ python main_match.py --config config/pkuv1_xsub_46_5split.yaml
 ```
 
 ## Acknowledgements
-This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR). The baseline methods are from [SynSE](https://github.com/skelemoa/synse-zsl) and [SMIE](https://github.com/YujieOuO/SMIE).
+This repo is based on [STAR](https://github.com/cseeyangchen/STAR), [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [GAP](https://github.com/MartinXM/GAP). The data processing is borrowed from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN) and [AimCLR](https://github.com/Levigty/AimCLR). 
 
 Thanks to the original authors for their work!
