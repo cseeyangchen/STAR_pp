@@ -1,0 +1,92 @@
+work_dir: ./work_dir/ntu60_xview_55_5split/zsl
+
+feeder: feeders.feeder_ntu.Feeder_Shiftgcn_Match
+
+train_feeder_args:
+  data_path: data/ntu60/NTU60_CV.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: ZSL
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_zsl_args:
+  data_path: data/ntu60/NTU60_CV.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: ZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_gzsl_args:
+  data_path: data/ntu60/NTU60_CV.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen55_unseen5
+  zero_setting: GZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+# model
+model: model.shiftgcn_match.ModelMatch
+weights: model/ntu60_ShiftGCN_joint_xview_seen55_unseen5-81-88396.pt
+# text feature
+text_path: semantic_feature/ntu120_part_descriptions_token.tar
+pool_path: semantic_feature/joints_concept_pool.tar
+# task
+task_name: ntu60_seen55_unseen5
+
+model_args:
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  body_part: 6
+  motion: 100
+  unseen: 55
+  project_dim: 128
+  graph_args:
+    labeling_mode: 'spatial'
+
+#optim
+weight_decay: 0.0005   
+base_lr: 0.001   
+lr_decay_rate: 0.1
+step: [30, 40]   
+warm_up_epoch: 0
+temperature_rate: 0.85 
+calibration_factor: [[0, 0], [0.010, 0.010], [0.011, 0.011], [0.012, 0.012], [0.013, 0.013], [0.014, 0.014], [0.015, 0.015], [0.016, 0.016], [0.017, 0.017], [0.018, 0.018], [0.019, 0.019], [0.020, 0.020], [1.0, 1.0]]
+
+# training
+device: [0]
+batch_size: 64  
+test_batch_size: 64
+num_epoch: 50 
+nesterov: True
+num_worker: 8
+

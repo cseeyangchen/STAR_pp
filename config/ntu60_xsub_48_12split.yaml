@@ -1,0 +1,91 @@
+work_dir: ./work_dir/ntu60_xsub_48_12split/zsl
+
+feeder: feeders.feeder_ntu.Feeder_Shiftgcn_Match
+
+train_feeder_args:
+  data_path: data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen48_unseen12
+  zero_setting: ZSL
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_zsl_args:
+  data_path: data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen48_unseen12
+  zero_setting: ZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+test_feeder_gzsl_args:
+  data_path: data/ntu60/NTU60_CS.npz
+  ntu_task: ntu60_xsub
+  zero_spilt_setting: ntu60_seen48_unseen12
+  zero_setting: GZSL
+  split: test
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 64
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  vel: False
+  bone: False
+
+# model
+model: model.shiftgcn_match.ModelMatch
+weights: model/ntu60_ShiftGCN_joint_xsub_seen48_unseen12-81-82164.pt
+# text feature
+text_path: semantic_feature/ntu120_part_descriptions_token.tar
+pool_path: semantic_feature/joints_concept_pool.tar
+# task
+task_name: ntu60_seen48_unseen12
+
+model_args:
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  body_part: 6
+  motion: 100
+  unseen: 48
+  project_dim: 128
+  graph_args:
+    labeling_mode: 'spatial'
+
+#optim
+weight_decay: 0.0005   
+base_lr: 0.1   
+lr_decay_rate: 0.1
+step: [20, 30]   
+warm_up_epoch: 0
+temperature_rate: 0.06  
+calibration_factor: [[0, 0], [0.90, 0.90], [0.91, 0.91], [0.92, 0.92], [0.93, 0.93], [0.94, 0.94], [0.95, 0.95], [0.96, 0.96], [0.97, 0.97], [0.98, 0.98], [0.99, 0.99], [1.0, 1.0]] 
+
+# training
+device: [0]
+batch_size: 64 
+test_batch_size: 64
+num_epoch: 40 
+nesterov: True
+num_worker: 8

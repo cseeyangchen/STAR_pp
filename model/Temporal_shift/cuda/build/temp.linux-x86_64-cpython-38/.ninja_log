@@ -1,0 +1,3 @@
+# ninja log v5
+0	19115	1705325499981738618	/DATA2/cy/Zero-Skeleton/model/Temporal_shift/cuda/build/temp.linux-x86_64-cpython-38/shift_cuda_kernel.o	90a3b2752307db51
+0	37768	1705325518610037988	/DATA2/cy/Zero-Skeleton/model/Temporal_shift/cuda/build/temp.linux-x86_64-cpython-38/shift_cuda.o	a5b0a34395276ad0

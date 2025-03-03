@@ -1,0 +1,46 @@
+# config
+config/as_ntu60_xsub_55_5split.yaml
+config/as_ntu60_xsub_55_5split1.yaml
+config/as_ntu60_xsub_55_5split2.yaml
+config/as_ntu60_xsub_55_5split3.yaml
+config/as_pkuv1_xsub_46_5split.yaml
+config/as_pkuv1_xsub_46_5split1.yaml
+config/as_pkuv1_xsub_46_5split2.yaml
+config/as_pkuv1_xsub_46_5split3.yaml
+config/ntu60_xsub_55_5split_2part.yaml
+config/ntu60_xsub_55_5split_4part.yaml
+config/pkuv1_xsub_46_5split_2part.yaml
+config/pkuv1_xsub_46_5split_4part.yaml
+config_old/
+# model
+model/__pycache__/
+model/shiftgcn_match_ntu_2part.py
+model/shiftgcn_match_ntu_4part.py
+model/shiftgcn_match_ntu_as.py
+model/shiftgcn_match_ntu_tsne.py
+model/shiftgcn_match_pku.py
+model/text_classification.py
+
+# semantics
+semantics/ntu60_2part_descriptions.txt
+semantics/ntu60_4part_descriptions.txt
+semantics/ntu120_part_descriptions_v2.json
+semantics/ntu120_part_descriptions_v3.txt
+semantics/ntu120_part_descriptions_v4.txt
+semantics/pkuv1_2part_descriptions.txt
+semantics/pkuv1_4part_descriptions.txt
+# semantics_feature
+semantic_feature/*
+# others
+en_core_web_sm-3.0.0.tar.gz
+work_dir/*
+visualization/
+train/
+val/
+__pycache__/
+
+
+
+
+
+
