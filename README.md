@@ -76,6 +76,8 @@ Put downloaded data into the following directory structure:
 
 ### Pretrain Skeleton Encoder (Shift-GCN) for Seen Classes 
 
+You can download Shift-GCN pretraining weights from [BaiduDisk](https://pan.baidu.com/s/1fz7OAc1MS0ZNdBQADndozg?pwd=r5gd) or [Google Drive](https://drive.google.com/file/d/1O4HrjU0NkBFNCNhPNoPN4xyNDYps5R0D/view?usp=sharing) for convenience. Following the [Shift-GCN](https://github.com/kchengiva/Shift-GCN) procedures, you can train the skeleton encoder yourself:
+
 - For NTU RGB+D 60 dataset (55/5 split):
 ```
  cd Pretrain_Shift_GCN
@@ -87,6 +89,7 @@ Put downloaded data into the following directory structure:
  cd Pretrain_Shift_GCN
  python main.py --config config/pkuv1_xsub_seen46_unseen5.yaml
 ```
+
 
 
 ### Extract Semantic Embeddings
