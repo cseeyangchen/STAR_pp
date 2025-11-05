@@ -1,0 +1,60 @@
+drink water; Head: tilts back slightly; Hand: grasps container; Arm: lifts container to mouth; Hip: remains stable; Leg: supports body weight; Foot: stays flat on ground.
+eat meal; Head: lowers toward plate; Hand: holds utensil or food; Arm: moves to mouth; Hip: remains seated; Leg: supports sitting posture; Foot: rests on floor.
+brush teeth; Head: tilts slightly forward; Hand: grips toothbrush; Arm: moves back and forth; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+brush hair; Head: tilts as needed; Hand: holds brush; Arm: strokes downward; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+drop; Head: lowers toward ground; Hand: releases grip; Arm: extends downward; Hip: bends forward; Leg: flexes at knees; Foot: remains on ground.
+pick up; Head: lowers toward object; Hand: grasps object; Arm: extends downward then lifts; Hip: bends forward; Leg: flexes at knees; Foot: flat on ground.
+throw; Head: turns toward target; Hand: grips then releases; Arm: swings forward; Hip: rotates forward; Leg: steps forward; Foot: pivots on ground.
+sit down; Head: remains level; Hand: may guide body; Arm: bends at elbow; Hip: flexes backward; Leg: bends at knee; Foot: flat on ground.
+stand up; Head: remains level; Hand: may push on support; Arm: extends downward; Hip: extends forward; Leg: straightens at knee; Foot: pushes on ground.
+clapping; Head: remains level; Hand: strikes together; Arm: swings inward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+reading; Head: tilts downward; Hand: holds book or device; Arm: supports at chest level; Hip: remains seated; Leg: relaxed in seat; Foot: rests on floor.
+writing; Head: tilts downward; Hand: grips pen; Arm: moves across paper; Hip: remains seated; Leg: relaxed in seat; Foot: rests on floor.
+tear up paper; Head: tilts downward; Hand: grips and pulls apart; Arm: extends outward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+put on jacket; Head: lowers briefly; Hand: inserts into sleeve; Arm: threads through sleeve; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+take off jacket; Head: remains level; Hand: pulls sleeve off; Arm: withdraws from sleeve; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+put on a shoe; Head: tilts downward; Hand: holds shoe; Arm: lowers to foot; Hip: bends slightly; Leg: lifts foot; Foot: inserts into shoe.
+take off a shoe; Head: tilts downward; Hand: pulls shoe off; Arm: reaches to foot; Hip: bends slightly; Leg: lifts foot; Foot: slides out of shoe.
+put on glasses; Head: tilts slightly forward; Hand: holds frames; Arm: lifts to face; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+take off glasses; Head: tilts slightly forward; Hand: grasps frames; Arm: pulls forward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+put on a hat/cap; Head: tilts slightly forward; Hand: holds hat; Arm: lifts above head; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+take off a hat/cap; Head: tilts slightly forward; Hand: grasps brim; Arm: lifts upward; Hip: remains stable; Leg: supports standing; Foot: flat on ground.
+cheer up; Head: lifts upward; Hand: pumps fist; Arm: raises high; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+hand waving; Head: turns toward direction; Hand: opens palm; Arm: swings side to side; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+kicking something; Head: tilts downward; Hand: may balance body; Arm: swings for balance; Hip: rotates forward; Leg: extends outward; Foot: strikes object.
+reach into pocket; Head: tilts downward; Hand: inserts into pocket; Arm: bends at elbow; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+hopping; Head: bobs up and down; Hand: may swing for balance; Arm: pumps rhythmically; Hip: flexes and extends; Leg: bends and straightens; Foot: pushes off ground.
+jump up; Head: tilts slightly back; Hand: may swing upward; Arm: pumps downward; Hip: extends fully; Leg: straightens explosively; Foot: pushes off ground.
+phone call; Head: tilts toward phone; Hand: holds phone; Arm: raises to ear; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+play with phone/tablet; Head: tilts downward; Hand: taps or swipes screen; Arm: supports device; Hip: remains seated; Leg: relaxed in seat; Foot: rests on floor.
+type on a keyboard; Head: tilts downward; Hand: presses keys; Arm: rests on desk; Hip: remains seated; Leg: relaxed in seat; Foot: rests on floor.
+point to something; Head: turns toward target; Hand: extends index finger; Arm: reaches forward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+taking a selfie; Head: tilts for angle; Hand: holds phone; Arm: extends forward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+check time (from watch); Head: tilts downward; Hand: pulls sleeve back; Arm: raises to eye level; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+rub two hands; Head: tilts downward; Hand: presses together; Arm: moves back and forth; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+nod head/bow; Head: tilts forward; Hand: remains at sides; Arm: hangs relaxed; Hip: bends slightly; Leg: supports body; Foot: flat on ground.
+shake head; Head: turns side to side; Hand: remains at sides; Arm: hangs relaxed; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+wipe face; Head: tilts slightly; Hand: presses cloth or hand; Arm: moves across face; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+salute; Head: faces forward; Hand: touches forehead; Arm: raises bent; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+put palms together; Head: tilts slightly; Hand: presses together; Arm: raises to chest; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+cross hands in front; Head: remains level; Hand: overlaps opposite wrist; Arm: folds across chest; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+sneeze/cough; Head: snaps forward; Hand: covers mouth; Arm: bends to face; Hip: remains stable; Leg: locks briefly; Foot: planted firm.
+staggering; Head: wobbles side to side; Hand: reaches for balance; Arm: flails outward; Hip: sways unevenly; Leg: stumbles forward; Foot: drags or shuffles.
+falling down; Head: snaps forward or back; Hand: reaches outward; Arm: flails for balance; Hip: collapses sideways; Leg: buckles at knee; Foot: slips or trips.
+headache; Head: pressed or cradled; Hand: rubs temples; Arm: bends to head; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+chest pain; Head: tilts forward; Hand: clutches chest; Arm: presses inward; Hip: remains stable; Leg: locks stiff; Foot: planted firm.
+back pain; Head: tilts forward; Hand: presses lower back; Arm: reaches behind; Hip: stiffens or arches; Leg: shifts weight; Foot: widens stance.
+neck pain; Head: tilts stiffly; Hand: rubs neck; Arm: reaches behind head; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+nausea/vomiting; Head: snaps forward; Hand: covers mouth; Arm: bends to face; Hip: hunches over; Leg: knees buckle; Foot: widens stance.
+fan self; Head: tilts back slightly; Hand: waves open palm; Arm: flaps toward face; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+punch/slap; Head: locks forward; Hand: forms fist or open palm; Arm: snaps forward; Hip: rotates sharply; Leg: drives weight forward; Foot: pivots on ball.
+kicking; Head: tilts downward; Hand: balances outward; Arm: swings for counterbalance; Hip: rotates forward; Leg: swings from knee; Foot: snaps toward target.
+pushing; Head: faces forward; Hand: presses flat; Arm: extends fully; Hip: drives forward; Leg: straightens behind; Foot: pushes off ground.
+pat on back; Head: turns toward person; Hand: opens palm; Arm: swings upward; Hip: rotates slightly; Leg: steps closer; Foot: pivots forward.
+point finger; Head: turns toward target; Hand: extends index finger; Arm: stretches straight; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+hugging; Head: rests on shoulder; Hand: presses back; Arm: wraps around; Hip: pulls close; Leg: steps in; Foot: plants firm.
+giving object; Head: faces recipient; Hand: holds and releases; Arm: extends forward; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+touch pocket; Head: tilts downward; Hand: pats or presses pocket; Arm: bends at elbow; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+shaking hands; Head: faces partner; Hand: grips and pumps; Arm: extends then bends; Hip: remains stable; Leg: supports body; Foot: flat on ground.
+walking towards; Head: faces forward; Hand: swings opposite leg; Arm: pumps front-back; Hip: rotates slightly; Leg: strides ahead; Foot: heel strikes then rolls.
+walking apart; Head: faces forward; Hand: swings opposite leg; Arm: pumps front-back; Hip: rotates slightly; Leg: strides away; Foot: heel strikes then pushes off.
