@@ -74,7 +74,7 @@ def semantic_feature_extract(filename, device):
     with torch.no_grad():
         # class semantic vector
         text_dict = {}
-        num_text_aug = 5   # 7
+        num_text_aug = 7   # 7
         for ii in range(num_text_aug):
             if ii == 0:
                 # action name
