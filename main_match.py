@@ -364,7 +364,7 @@ class Processor():
                         label_language = self.action_descriptions[0].cuda(self.output_device)[self.unseen_classes]
                         true_label_array = torch.tensor([self.test_zsl_label_dict[l.item()] for l in label]).cuda(self.output_device)
                         emb_part, emb_global = self.model(data)
-                        global_vl_pred_idx, true_label_list, text_att_weights, text_extracted, text_embedded  = self.model.get_zsl_acc(emb_global, emb_part, label_language, true_label_array, part_language, self.pool_descriptions)
+                        global_vl_pred_idx, true_label_list, text_att_weights = self.model.get_zsl_acc(emb_global, emb_part, label_language, true_label_array, part_language, self.pool_descriptions)
                         pred_list.append(global_vl_pred_idx)
                         label_list.append(true_label_list)
                         step += 1
