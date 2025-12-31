@@ -1,4 +1,10 @@
-# Data Preparation
+# STAR++
+This repo is the official implementation for [STAR++: Region-aware Conditional Semantics via Interpretable Side Information for Zero-Shot Skeleton Action Recognition](). It is an extension version of the previously published ACM MM 2024 conference paper [STAR](https://dl.acm.org/doi/10.1145/3664647.3681196). This journal paper has been accepted to **TCSVT 2025**.
+
+## Framework
+![image](src/star_pp.png)
+
+## Data Preparation
 
 ### Download datasets.
 
